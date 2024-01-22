@@ -1,0 +1,122 @@
+.m_img {
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+.p_ozan {
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+
+.cards {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	gap: 11px;
+	align-items: center;
+	margin-top: 100px;
+
+	.card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 310px;
+		height: 511px;
+		border-radius: 40px;
+		background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+
+		@media (max-width: 390px) {
+			position: relative;
+			left: 0;
+		}
+	}
+
+	.card img {
+		border-radius: 50%;
+		border: 15px solid rgba(14, 14, 14, 0.32);
+	}
+	.text {
+		width: 250px;
+		height: 57px;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin-top: 50px;
+		text-align: center;
+	}
+	.title {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+	}
+	.button_ago {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px;
+	}
+}
+
+// .cards {
+// 	@media (max-width; )
+// }
+
+// !
+
+.display {
+	margin-top: 150px;
+	display: flex;
+	gap: 126px;
+	.why_build {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.p_img {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+	}
+
+	.p_ozan {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 30px;
+		// margin-top: 50px;
+		width: 652px;
+		height: 20px;
+	}
+
+	.with_hydra {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+}
+
+hr {
+	width: 150px;
+	height: 1px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.hr_c {
+	background: #211e2e;
+}
+

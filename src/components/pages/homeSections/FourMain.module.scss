@@ -1,0 +1,94 @@
+.san {
+	color: #343045;
+	font-family: Montserrat;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	div {
+		background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
+		width: 159px;
+		height: 159px;
+		flex-shrink: 0;
+		border-radius: 50%;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		border: 20px solid #343045;
+	}
+}
+.four_Main_parent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+
+	.flex {
+		display: flex;
+		align-items: start;
+	}
+
+	.flex img {
+		width: 67px;
+		height: 67px;
+		flex-shrink: 0;
+	}
+
+	.flex p {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+}
+
+.pp_texts {
+	width: 700px;
+	height: 20px;
+	line-height: 25px;
+	margin-top: 19px;
+}
+
+.parrentt {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+
+	.how_we_build {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.with_hydra_vr {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+
+	.two_p_img {
+		display: flex;
+		align-items: center;
+		gap:  15px;
+	}
+}
+
+.m_top {
+	margin-top: 120px;
+}
+
+

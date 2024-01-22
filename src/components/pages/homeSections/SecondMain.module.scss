@@ -1,0 +1,163 @@
+.mann {
+	@media (max-width: 390px) {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.secondMain_ptext {
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+
+.imm {
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+
+.p_textt {
+	@media (max-width: 390px) {
+		position: relative;
+		right: 160px;
+		width: 360px;
+		top: 600px;
+	}
+}
+
+.about{
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+.hydra_vr{
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+.button_lets{
+	@media (max-width: 390px) {
+		position: relative;
+		right: 100px;
+		top: 600px;
+	}
+}
+
+
+
+
+
+
+
+
+
+.secondMainParent {
+	display: flex;
+	justify-content: space-between;
+	gap: 70px;
+	margin-top: 100px;
+
+	.secondMain_h1text {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+
+	.first_ptext {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.img_right {
+		display: flex;
+		margin-top: 17px;
+		
+	}
+
+
+
+	.secondMain_ptext {
+		width: 700px;
+		height: 20px;
+		line-height: 25px;
+		position: relative;
+		bottom: 30px;
+	}
+}
+
+// !
+.father_second_secondMain {
+	display: flex;
+	justify-content: space-between;
+  gap: 100px;
+  line-height: 40px;
+
+	.h22h2 {
+		margin-top: 50px;
+	}
+
+
+
+
+
+	.p_texts {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		margin-top: 40px;
+		line-height: 30px;
+	}
+
+	.about {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.hydra_vr {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+
+	.button_lets {
+		margin-top: 30px;
+
+		color: #343045;
+		font-family: Montserrat;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+
+		width: 214px;
+		height: 48px;
+		flex-shrink: 0;
+
+		border-radius: 40px;
+		background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+	}
+
+
+
+}
+
+.sanjar {
+  margin-top: 100px
+}

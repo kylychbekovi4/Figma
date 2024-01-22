@@ -1,0 +1,218 @@
+.firstLogo {
+	@media (max-width: 390px) {
+		width: 300px;
+		height: 300px;
+		position: relative;
+		right: 420px;
+		bottom: 80px;
+	}
+}
+.mediaa {
+	@media (max-width: 390px) {
+		width: 410px;
+		height: 300px;
+		padding-top: 320px;
+	}
+}
+// .phone_second {
+// 	@media (max-width: 390px) {
+// 		background: none;
+// 		display: none;
+// 	}
+// }
+
+.locations {
+	@media (max-width: 390px) {
+		width: 347px;
+		height: 109px;
+		flex-shrink: 0;
+
+		border-radius: 90px;
+		background: radial-gradient(
+			2900.76% 50.13% at 50% 53.89%,
+			rgba(58, 52, 86, 0.95) 0%,
+			#211e2e 100%
+		);
+		box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	}
+}
+
+.Rectangle {
+	@media (min-width: 390px) {
+		background: none;
+		border-radius: none;
+		box-shadow: none;
+		position: relative;
+		top:  90px;
+	}
+}
+
+.telephone img h2 p {
+	@media (min-width: 390px) {
+		display: none;
+		background: none;
+	
+	}
+}
+
+.p1_text {
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+
+.button1 {
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+
+.button_fr {
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+
+.right_logo {
+	@media (max-width: 390px) {
+		display: none;
+	}
+}
+
+.DiveInto {
+	padding-block: 100px;
+
+	.parent_class {
+		display: flex;
+		justify-content: space-between;
+
+		.h111 {
+			font-family: Montserrat;
+			font-size: 46px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			.span_text {
+				color: #c0b7e8;
+			}
+		}
+
+		.h112 {
+			font-family: Montserrat;
+			font-size: 46px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+
+			.span_text2 {
+				color: #c0b7e8;
+			}
+		}
+	}
+	.button1 {
+		width: 214px;
+		height: 48px;
+		border-radius: 40px;
+		background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+	}
+
+	.button_right {
+		display: flex;
+		align-items: center;
+		margin-top: 100px;
+	}
+
+	.p1_text {
+		width: 500px;
+		height: 10px;
+		margin-top: 40px;
+
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 25px;
+	}
+// 
+	.Rectangle {
+		margin-top: 60px;
+		width: 1272px;
+		height: 169px;
+		display: flex	;
+		align-items: center;
+	justify-content: space-around;
+		gap: 10px;
+
+		border-radius: 90px;
+		background: radial-gradient(
+			2900.76% 50.13% at 50% 53.89%,
+			rgba(58, 52, 86, 0.95) 0%,
+			#211e2e 100%
+		);
+		box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+
+		.locations {
+			display: flex;
+			flex-direction: column;
+		justify-content: center;
+			img{
+				width: 70px;
+			}
+			.text1 {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+			}
+			p {
+				width: 400px;
+			}
+		}
+
+		.phone_second {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			gap: 10px;
+		}
+
+		.emai_second {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			margin-left: 30px;
+			gap: 16px;
+		}
+
+		.phone {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			.text2 {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+
+				h2 {
+					width: 400px;
+				}
+			}
+		}
+
+		.email {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			// gap: 10px;
+			.text3 {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				h2 {
+					width: 400px;
+				}
+			}
+		}
+	}
+}
